@@ -1,9 +1,9 @@
 import random 
 
-ourList = list()
+belowfive = list()
 count = 0 
-while (count < 11):
-    ourList.append(random.randint(1,10))
+while (count < 5):
+    belowfive.append(random.randint(1,4))
     count += 1
     
-ourList
+print (belowfive)
